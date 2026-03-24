@@ -12,3 +12,13 @@
     color: gold !important;
     transition: color 0.3s ease;
 }
+
+/* Estilos para las cards de productos */
+.product-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.product-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
