@@ -1,5 +1,5 @@
 
-/* Estilos personalizados para la navbar */
+
 .navbar-nav .nav-link:hover {
     background-color: gold;
     color: darkblue !important;
@@ -7,13 +7,13 @@
     transition: background-color 0.3s ease, color 0.3s ease;
 }
 
-/* Estilos para los iconos sociales en el footer */
+
 .social-icon:hover {
     color: gold !important;
     transition: color 0.3s ease;
 }
 
-/* Estilos para las cards de productos */
+
 .product-card {
     transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
 }
@@ -24,7 +24,7 @@
     border: 2px solid gold;
 }
 
-/* Estilos para las cards de ofertas */
+
 .offer-card {
     transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
 }
@@ -35,14 +35,14 @@
     border: 2px solid gold;
 }
 
-/* Estilos para botones primarios */
+
 .btn-primary:hover {
     background-color: gold !important;
     color: darkblue !important;
     border-color: gold !important;
 }
 
-/* Estilos para la sección Acerca de */
+
 .acerca-de {
     border: 2px solid #ddd;
     transition: background-color 0.3s ease, box-shadow 0.3s ease;
@@ -53,7 +53,6 @@
     box-shadow: 0 0 15px gold;
 }
 
-/* Estilos para las flechas de los carruseles */
 .carousel-control-prev-icon, .carousel-control-next-icon {
     filter: brightness(0) invert(1) sepia(1) hue-rotate(45deg) saturate(10);
 }
