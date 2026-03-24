@@ -41,3 +41,14 @@
     color: darkblue !important;
     border-color: gold !important;
 }
+
+/* Estilos para la sección Acerca de */
+.acerca-de {
+    border: 2px solid #ddd;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.acerca-de:hover {
+    background-color: beige;
+    box-shadow: 0 0 15px gold;
+}
