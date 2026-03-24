@@ -15,10 +15,29 @@
 
 /* Estilos para las cards de productos */
 .product-card {
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
 }
 
 .product-card:hover {
     transform: translateY(-5px);
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 8px 16px gold;
+    border: 2px solid gold;
+}
+
+/* Estilos para las cards de ofertas */
+.offer-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
+}
+
+.offer-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px gold;
+    border: 2px solid gold;
+}
+
+/* Estilos para botones primarios */
+.btn-primary:hover {
+    background-color: gold !important;
+    color: darkblue !important;
+    border-color: gold !important;
 }
