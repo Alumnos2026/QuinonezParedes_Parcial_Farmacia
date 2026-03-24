@@ -20,16 +20,16 @@
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ms-auto">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                <a class="nav-link active" aria-current="page" href="#inicio">Inicio</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Acerca de</a>
+                <a class="nav-link" href="#acerca-de">Acerca de</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Productos</a>
+                <a class="nav-link" href="#productos">Productos</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Contacto</a>
+                <a class="nav-link" href="#footer">Contacto</a>
               </li>
             </ul>
           </div>
@@ -37,7 +37,7 @@
       </nav>
     </header>
 
-    <main>  <div id="carouselExampleCaptions" class="carousel slide">
+    <main id="inicio">  <div id="carouselExampleCaptions" class="carousel slide">
   <div class="carousel-indicators">
     <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
     <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -64,7 +64,7 @@
   </button>
 </div>  </main>
 
-    <section class="py-5">
+    <section class="py-5" id="productos">
       <div class="container">
         <div class="row">
           <div class="col-12 col-md-6 col-lg-4 mb-4">
@@ -131,16 +131,20 @@
       </div>
     </section>
 
-    <section class="py-5 bg-light">
+    <section class="py-5 bg-light" id="ofertas">
       <div class="container">
         <h2 class="text-center mb-4">Ofertas Especiales</h2>
         <div id="offersCarousel" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#offersCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#offersCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          </div>
           <div class="carousel-inner">
             <div class="carousel-item active">
               <div class="row">
                 <div class="col-md-4">
                   <div class="card offer-card">
-                    <img src="imagenes/1016905.jpeg" class="card-img-top" alt="Oferta 1">
+                    <img src="imagenes/of1.jpeg" class="card-img-top" alt="Oferta 1">
                     <div class="card-body">
                       <h5 class="card-title">Hepavan</h5>
                       <p class="card-text">Apoyo en desintoxicar y mantener saludable el hígado.</p>
@@ -153,7 +157,7 @@
                 </div>
                 <div class="col-md-4">
                   <div class="card offer-card">
-                    <img src="imagenes/1015708.jpeg" class="card-img-top" alt="Oferta 2">
+                    <img src="imagenes/of2.jpeg" class="card-img-top" alt="Oferta 2">
                     <div class="card-body">
                       <h5 class="card-title">Prostabien</h5>
                       <p class="card-text">Lo mejor en cuidado de la próstata.</p>
@@ -166,7 +170,7 @@
                 </div>
                 <div class="col-md-4">
                   <div class="card offer-card">
-                    <img src="imagenes/1017133.jpeg" class="card-img-top" alt="Oferta 3">
+                    <img src="imagenes/of3.jpeg" class="card-img-top" alt="Oferta 3">
                     <div class="card-body">
                       <h5 class="card-title">Fortesar Plus</h5>
                       <p class="card-text">Multivitamínico para el sistema inmunológico.</p>
@@ -183,7 +187,7 @@
               <div class="row">
                 <div class="col-md-4">
                   <div class="card offer-card">
-                    <img src="imagenes/1017134.jpeg" class="card-img-top" alt="Oferta 4">
+                    <img src="imagenes/of4.jpeg" class="card-img-top" alt="Oferta 4">
                     <div class="card-body">
                       <h5 class="card-title">Fortesar P</h5>
                       <p class="card-text">Cápsulas prenatales.</p>
@@ -196,7 +200,7 @@
                 </div>
                 <div class="col-md-4">
                   <div class="card offer-card">
-                    <img src="imagenes/1018065.jpeg" class="card-img-top" alt="Oferta 5">
+                    <img src="imagenes/of5.jpeg" class="card-img-top" alt="Oferta 5">
                     <div class="card-body">
                       <h5 class="card-title">Iberoflora niños</h5>
                       <p class="card-text">Suplemento con probióticos.</p>
@@ -209,7 +213,7 @@
                 </div>
                 <div class="col-md-4">
                   <div class="card offer-card">
-                    <img src="placeholder.jpg" class="card-img-top" alt="Oferta 6">
+                    <img src="imagenes/of6.jpeg" class="card-img-top" alt="Oferta 6">
                     <div class="card-body">
                       <h5 class="card-title">Producto Oferta 6</h5>
                       <p class="card-text">Descripción de la oferta 6.</p>
@@ -235,7 +239,15 @@
       </div>
     </section>
 
-    <footer class="bg-primary text-white text-center py-3">
+    <section class="py-5" id="acerca-de">
+      <div class="container">
+        <h2 class="text-center mb-4">Acerca de Farmacon</h2>
+        <p class="text-center">Farmacon es una farmacia dedicada a proporcionar productos de salud de alta calidad, con un enfoque en el bienestar de nuestros clientes. Ofrecemos una amplia gama de medicamentos, suplementos y productos naturales para apoyar tu salud y la de tu familia. Nuestro equipo de profesionales está comprometido con brindarte el mejor servicio y asesoramiento personalizado.</p>
+        <p class="text-center">Visítanos y descubre cómo podemos ayudarte a mantener una vida saludable.</p>
+      </div>
+    </section>
+
+    <footer class="bg-primary text-white text-center py-3" id="footer">
       <p>&copy; 2026 Farmacon. Todos los derechos reservados.</p>
       <div>
         <a href="#" class="text-white me-3 social-icon"><i class="bi bi-facebook"></i></a>
