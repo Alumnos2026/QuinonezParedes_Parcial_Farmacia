@@ -13,7 +13,7 @@
     <header>
       <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#">Farmacon</a>
+          <a class="navbar-brand" href="#inicio">Farmacon</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -29,7 +29,7 @@
                 <a class="nav-link" href="#productos">Productos</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#footer">Contacto</a>
+                <a class="nav-link" href="#contacto">Contacto</a>
               </li>
             </ul>
           </div>
@@ -239,11 +239,36 @@
       </div>
     </section>
 
-    <section class="py-5 acerca-de" id="acerca-de">
+    <section class="py-5 acerca-de vh-100 d-flex align-items-center" id="acerca-de">
       <div class="container">
         <h2 class="text-center mb-4">Acerca de Farmacon</h2>
         <p class="text-center">Farmacon es una farmacia dedicada a proporcionar productos de salud de alta calidad, con un enfoque en el bienestar de nuestros clientes. Ofrecemos una amplia gama de medicamentos, suplementos y productos naturales para apoyar tu salud y la de tu familia. Nuestro equipo de profesionales está comprometido con brindarte el mejor servicio y asesoramiento personalizado.</p>
-        <p class="text-center">Visítanos y descubre cómo podemos ayudarte a mantener una vida saludable.</p>
+        <p class="text-center">Desde hace años, Farmacon ha sido un pilar en la comunidad, ofreciendo no solo productos farmacéuticos, sino también consejos expertos en nutrición, cuidado personal y prevención de enfermedades. Nuestros productos incluyen vitaminas, hierbas medicinales, cosméticos naturales y medicamentos de venta libre, todos seleccionados por su eficacia y seguridad.</p>
+        <p class="text-center">Creemos en un enfoque holístico de la salud, donde el cuerpo y la mente van de la mano. Por eso, además de nuestros productos, proporcionamos información educativa y talleres sobre estilos de vida saludables. Nuestro compromiso es ayudarte a vivir mejor, con productos que realmente marquen una diferencia.</p>
+        <p class="text-center">Visítanos en nuestras instalaciones modernas y descubre cómo podemos ayudarte a mantener una vida saludable. ¡Tu bienestar es nuestra prioridad!</p>
+      </div>
+    </section>
+
+    <hr class="my-5 shadow-lg">
+
+    <section class="py-5" id="contacto">
+      <div class="container">
+        <h2 class="text-center mb-4">Contáctanos</h2>
+        <form>
+          <div class="mb-3">
+            <label for="nombre" class="form-label">Nombre</label>
+            <input type="text" class="form-control" id="nombre" placeholder="Tu nombre">
+          </div>
+          <div class="mb-3">
+            <label for="correo" class="form-label">Correo Electrónico</label>
+            <input type="email" class="form-control" id="correo" placeholder="tuemail@example.com">
+          </div>
+          <div class="mb-3">
+            <label for="numero" class="form-label">Número de Teléfono</label>
+            <input type="tel" class="form-control" id="numero" placeholder="Tu número">
+          </div>
+          <button type="submit" class="btn btn-primary">Enviar</button>
+        </form>
       </div>
     </section>
 
