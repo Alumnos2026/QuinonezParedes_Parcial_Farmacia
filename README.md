@@ -1,0 +1,1 @@
+# QuinonezParedes_Parcial_Farmacia
